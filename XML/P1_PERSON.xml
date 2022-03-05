@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<personneldata>
+	<person id="1">
+		<name>Jacob</name>
+		<email>jacob@gmail.com</email>
+		<phone>8953 567 234</phone>
+	</person>
+	<person id="2">
+		<name>Bella</name>
+		<email>bella@yahoo.com</email>
+		<phone>8952 876 876</phone>
+	</person>
+    <person id="3">
+		<name>Carlisle</name>
+		<email>carlisle@gmail.com</email>
+		<phone>8943 123 987</phone>
+	</person>
+    <person id="4">
+		<name>Esme</name>
+		<email>esme@yahoo.com</email>
+		<phone>8952 873 656</phone>
+	</person>
+    <person id="5">
+		<name>Jasper</name>
+		<email>jasper@gmail.com</email>
+		<phone>8922 121 977</phone>
+	</person>
+</personneldata>
