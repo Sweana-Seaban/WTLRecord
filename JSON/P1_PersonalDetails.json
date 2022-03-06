@@ -1,0 +1,31 @@
+{
+  "personneldata": {
+    "person": [
+      {
+        "name": "Jacob",
+        "email": "jacob@gmail.com",
+        "phone": "8953 567 234"
+      },
+      {
+        "name": "Bella",
+        "email": "bella@yahoo.com",
+        "phone": "8952 876 876"
+      },
+      {
+        "name": "Carlisle",
+        "email": "carlisle@gmail.com",
+        "phone": "8943 123 987"
+      },
+      {
+        "name": "Esme",
+        "email": "esme@yahoo.com",
+        "phone": "8952 873 656"
+      },
+      {
+        "name": "Jasper",
+        "email": "jasper@gmail.com",
+        "phone": "8922 121 977"
+      }
+    ]
+  }
+}
