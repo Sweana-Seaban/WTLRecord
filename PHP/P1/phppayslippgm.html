@@ -1,0 +1,42 @@
+<!DOCTYPE>
+			
+	<html>
+
+		<head>
+			<title> Employee Details</title>
+		</head>
+
+		<body>
+			<!-- FORM STARTS HERE -->
+			<form  action="phppayslippgm.php"  method="post" >
+
+				<center>
+					 <h1> Employee Details</h1>
+
+					<br><br><br>
+
+					 Employee Name:
+					<input type = "text" name="nam" required>
+					<br><br>
+					 Employee Designation:
+
+					<select name="desig">
+
+					 <option selected value="manager">Manager</option>
+
+					 <option value="supervisor">Supervisor</option>
+
+					 <option value="clerk">Clerk</option>
+
+					 <option value="peon">Peon</option>  </select>
+					<br><br>
+					 Basic Salary:
+					<input type="number" name="sal" min="1000" required>
+					<br><br>
+					 <input type = "submit"  value="SUBMIT" >
+				</center>
+			</form>
+			<!-- FORM ENDS HERE -->
+		</body>
+	</html>
+
