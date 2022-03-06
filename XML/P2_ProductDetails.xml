@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ProductDetails>
+    <Product1>
+        <Id>1</Id>
+        <Name>Dunagree</Name>
+        <Price>800</Price>
+        <Colour>Green</Colour>
+        <Quantity>3</Quantity>
+    </Product1>
+    <Product2>
+        <Id>2</Id>
+        <Name>Pleated Skirt</Name>
+        <Price>400</Price>
+        <Colour>Purple</Colour>
+        <Quantity>1</Quantity>
+    </Product2>
+    <Product3>
+        <Id>3</Id>
+        <Name>Worded Barrette</Name>
+        <Price>50</Price>
+        <Colour>Silver</Colour>
+        <Quantity>10</Quantity>
+    </Product3>
+    <Product4>
+        <Id>4</Id>
+        <Name>Jogger</Name>
+        <Price>900</Price>
+        <Colour>Black</Colour>
+        <Quantity>2</Quantity>
+    </Product4>
+    <Product5>
+        <Id>5</Id>
+        <Name>Hoodie</Name>
+        <Price>800</Price>
+        <Colour>Orange</Colour>
+        <Quantity>5</Quantity>
+    </Product5>
+</ProductDetails>

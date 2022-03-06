@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<FacultyDetails>
+    <Faculty1>
+        <Id>1</Id>
+        <Name>Hitha Paulson</Name>
+        <Department>Computer Science</Department>
+        <Salary>40000</Salary>
+        <Course>Computer Organisation and Architecture</Course>
+    </Faculty1>
+    <Faculty2>
+        <Id>2</Id>
+        <Name>Jestin James</Name>
+        <Department>Computer Science</Department>
+        <Salary>43000</Salary>
+        <Course>Android</Course>
+    </Faculty2>
+    <Faculty3>
+        <Id>3</Id>
+        <Name>Priya M S</Name>
+        <Department>Computer Science</Department>
+        <Salary>50000</Salary>
+        <Course>Programming in C</Course>
+    </Faculty3>
+    <Faculty4>
+        <Id>4</Id>
+        <Name>Sheba George</Name>
+        <Department>English</Department>
+        <Salary>42000</Salary>
+        <Course>Academic Writing</Course>
+    </Faculty4>
+    <Faculty5>
+        <Id>5</Id>
+        <Name>Ann</Name>
+        <Department>Physics</Department>
+        <Salary>40000</Salary>
+        <Course>Nuclear Physics</Course>
+    </Faculty5>
+</FacultyDetails>
