@@ -1,0 +1,39 @@
+{
+  "ProductDetails": {
+    "Product1": {
+      "Id": 1,
+      "Name": "Dunagree",
+      "Price": 800,
+      "Colour": "Green",
+      "Quantity": 3
+    },
+    "Product2": {
+      "Id": 2,
+      "Name": "Pleated Skirt",
+      "Price": 400,
+      "Colour": "Purple",
+      "Quantity": 1
+    },
+    "Product3": {
+      "Id": 3,
+      "Name": "Worded Barrette",
+      "Price": 50,
+      "Colour": "Silver",
+      "Quantity": 10
+    },
+    "Product4": {
+      "Id": 4,
+      "Name": "Jogger",
+      "Price": 900,
+      "Colour": "Black",
+      "Quantity": 2
+    },
+    "Product5": {
+      "Id": 5,
+      "Name": "Hoodie",
+      "Price": 800,
+      "Colour": "Orange",
+      "Quantity": 5
+    }
+  }
+}

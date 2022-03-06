@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<script>
+			function checkNumber()
+			{
+				var flag,number,remainder,addition = 0,i;
+				number = Number(document.getElementById("N").value);
+				flag = number;
+				for(i = 0; i < number; i++)
+				{
+					remainder = number%i;
+					if(remainder==0)
+					{
+						addition += i;
+					}
+				}
+				if(addition == flag)
+				{
+					window.alert("-The inputed number is Perfect");
+				}
+				else if(addition >flag)
+				{
+					window.alert("-The inputed number is an abundunt number");
+				}         
+                                                                            else
+                                                                            {
+					window.alert("-The inputed number is deficient number");
+				}    
+			}
+		</script>
+        <style>
+            h1{
+                color:crimson;
+            }
+            input{
+                color:darkred;
+            }
+            body{
+                text-align: center;
+                font-size: larger;
+            }
+        </style>
+	</head>
+	<body>
+	<br>
+	<h1>Whether a number is Perfect,Abundant or Deficient</h1>
+	Enter The Number :<input type="text" name="n" id = "N"/>
+	<hr color="cyan">
+	<br><button onClick="checkNumber()">CHECK</button>
+	</body>
+</html>

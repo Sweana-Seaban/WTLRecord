@@ -1,0 +1,39 @@
+{
+  "FacultyDetails": {
+    "Faculty1": {
+      "Id": 1,
+      "Name": "Hitha Paulson",
+      "Department": "Computer Science",
+      "Salary": 40000,
+      "Course": "Computer Organisation and Architecture"
+    },
+    "Faculty2": {
+      "Id": 2,
+      "Name": "Jestin James",
+      "Department": "Computer Science",
+      "Salary": 43000,
+      "Course": "Android"
+    },
+    "Faculty3": {
+      "Id": 3,
+      "Name": "Priya M S",
+      "Department": "Computer Science",
+      "Salary": 50000,
+      "Course": "Programming in C"
+    },
+    "Faculty4": {
+      "Id": 4,
+      "Name": "Sheba George",
+      "Department": "English",
+      "Salary": 42000,
+      "Course": "Academic Writing"
+    },
+    "Faculty5": {
+      "Id": 5,
+      "Name": "Ann",
+      "Department": "Physics",
+      "Salary": 40000,
+      "Course": "Nuclear Physics"
+    }
+  }
+}
