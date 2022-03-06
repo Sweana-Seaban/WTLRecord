@@ -1,0 +1,76 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Basic Calculator</title>
+            <style>
+                button {
+                width:50%;
+                height: 70px;
+                background-color: #f2796e;
+                border: 2px solid #f2796e;
+                border-radius: 8px;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                padding-bottom:20px;
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+                transition: all 0.1s ease;
+}
+h1{
+    color: #f2796e;
+}
+body{
+    text-align: center;
+}
+button:hover {
+  opacity: 0.8;
+}
+            </style>    
+        </head>
+		<body>
+            <centre>
+
+            
+			<h1>BASIC OPERATIONS ON NUMBERS</h1>
+			<form>
+			<h3>Enter the First number : <input id="first"></h3><br><br>
+			<h3>Enter the Second number: <input id="second"></h3><br><br>
+			</form>
+			<button onclick="add()"><h3>Add</h3></button><br><br>
+			<button onclick="subtract()"><h3>Subtract</h3></button><br><br>
+			<button onclick="multiply()"><h3>Multiply</h3></button><br><br>
+			<button onclick="divide()"><h3>Divide</h3></button><br><br>
+			<p id="answer"></p>
+        </centre>
+			<script>
+				function add(){
+				var a,b,c;
+				a=Number(document.getElementById("first").value);
+				b=Number(document.getElementById("second").value);
+				c= a + b;
+				document.getElementById("answer").innerHTML= "The sum is:" + c;
+				}
+				function subtract(){
+				var a,b,c;
+				a=Number(document.getElementById("first").value);
+				b=Number(document.getElementById("second").value);
+				c= a - b;
+				document.getElementById("answer").innerHTML= "The difference is:" + c;
+				}
+				function multiply(){
+				var a,b,c;
+				a=Number(document.getElementById("first").value);
+				b=Number(document.getElementById("second").value);
+				c= a * b;
+				document.getElementById("answer").innerHTML= "The product is:" + c;
+				}
+				function divide(){
+				var a,b,c;
+				a=Number(document.getElementById("first").value);
+				b=Number(document.getElementById("second").value);
+				c= a / b;
+				document.getElementById("answer").innerHTML= "The quotient is:" + c;
+				}
+			</script>
+		</body>
+	</html>

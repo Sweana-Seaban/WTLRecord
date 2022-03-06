@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>change background color</title>
+        <style>
+            body{
+                margin-top:20%;
+                margin-left:35%;
+            }
+            a{
+                color:brown;
+            }
+        </style>
+    </head>
+    <body>
+        <centre>
+        <script>
+            function myArray(n)
+            {
+                var backcolor=["#FFFF00","#ff0000","#0000ff","#008000", "#FF1493"];
+                document.bgColor=backcolor[n];
+            }
+        </script>
+        <a href="#" onmouseover="myArray(0)">YELLOW</a>
+        <a href="#" onmouseover="myArray(1)">RED</a>
+        <a href="#" onmouseover="myArray(2)">BLUE</a>
+        <a href="#" onmouseover="myArray(3)">GREEN</a>
+        <a href="#" onmouseover="myArray(4)">PINK</a>
+        <h1>Changing background color</h1>
+        </centre>
+    </body>
+</html>
